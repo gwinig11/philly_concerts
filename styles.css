@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #3a3a3a;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 75px;
+    margin-bottom: 35px;
+}
+
+
+.date_selector{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+  
+.date_selector input{
+    margin-left: 50px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 12px 10px;
+    text-align: center;
+    width: 125px;
+    height: 10px;
+}
+
+/* VENUES */
+
+.showButtons{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+ 
+.showDetails{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 2px;
+    padding-left: 10px;
+    width: 500px;  
+    margin-left: -7px;
+}
+ 
+.noShow{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 500px;  
+    color: red;
+}
+
+.showButtons > p{
+   padding-right: 10px;
+}
+
+.address{
+    font-style: italic;
+    margin-top: -12px;
+
+}
+
+.buttonLink{
+  font: bold;
+  text-decoration: none;
+  background-color: #5b5a5a;
+  color: white;
+  padding: 8px 15px 8px 15px; border-radius: 7px;
+  margin-top: -10px;
+}
+ 
+.venue{
+   border: solid 2px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   width: 500px;  
+   background-color: #89cff0;
+   color: black;
+
+}
+ 
+.venueSection{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.intro{
+    text-decoration: line-through;
+}
